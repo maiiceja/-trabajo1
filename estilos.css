@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Lugrasimo&display=swap');
+.logo{
+    width: 150px;
+}
+.navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+    }
+    .conte{
+        width: 100%;
+        margin: 10px 0 10px 0;
+        background-image:url('./imagenes/fondo\ fiestamorado.jpg');
+        border-radius: 50px 100px;
+    }
+    .conte a{
+     color: antiquewhite;
+    }
+   
+     .content{
+      display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+     }
+
+           video{
+        border-radius: 70px 50px;
+        }
+        .vfp{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            width: 100%;
+            margin: 10px 0 10px 0;
+        }
+
+          .contenedor1{
+            display:flex;
+             flex-direction: row;
+             justify-content: center;
+            align-items: center;
+            width: 100%;
+           margin: 10px 0 10px 0;
+          border-radius: 70px 10px;
+          background-image:url('./imagenes/fondo\ fiestamorado.jpg'); 
+          }
+          .qs{
+             display:flex;
+            flex-direction: row;
+            align-items:center;
+          }
+          .qs img{
+            width: 250px;
+            border-radius: 70px 50px;
+        }
+        .contenedor2{
+            display:flex;
+             flex-direction:row-reverse;
+             justify-content:end;
+            align-items: center;
+            width: 100%;
+           margin: 10px 0 10px 0;
+           background-color: #867192;
+          border-radius: 70px 10px;
+          }
+          .qs2{
+            display:flex;
+            flex-direction:row-reverse;
+            align-items:center;
+            background-image: url('./imagenes/fondo\ fiesta\ nav1.jpg');
+                 }
+          .qs2 img{
+            width: 250px;
+            border-radius: 70px 50px;
+        }
+        .qs a{ 
+            font-size: 30px;
+            color: rgba(180, 24, 172, 0.87);
+            font-family: "Poetsen One", sans-serif;
+          }    
+          .qs2 a{ 
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            font-family: "Poetsen One", sans-serif;
+          }  
+        .qs p{ 
+            font-size: 30px;
+            color: rgba(255, 255, 255, 0.87);
+            font-family: "Sedan SC", serif
+          }    
+          .qs2 p{ 
+            font-size: 30px;
+            color: rgb(75, 6, 116);
+            font-family: "Sedan SC", serif
+          }    
+          .qs h2{ 
+            font-size: 30px;
+            color: rgba(38, 33, 44, 0.87);
+            font-family: "Sedan SC", serif
+          }    
+          .qs2 h2{ 
+            font-size: 30px;
+            color: rgba(38, 33, 44, 0.87);
+            font-family: "Sedan SC", serif
+          }    
+           
+.visita h2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-size: 50px;
+    color: rgba(65, 20, 51, 0.87);
+    font-family: "Sedan SC", serif
+}
+.visita img{
+    width: 150px;
+}
+.iconos img{
+    width: 10px;
+}
+.servicio1 h2{
+  width: 100%;
+  display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-size: 50px;
+  color:rgba(34, 180, 15, 0.87);
+  font-family: "Poetsen One", sans-serif;
+}
+.servicio1 a{
+  width: 100%;
+     font-size: 30px;
+   color: rgba(5, 105, 5, 0.87);
+  font-family: "Poetsen One", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.comida1 img{
+  width: 250px;
+  height: 220px;
+  border-radius: 100px 170px;
+  margin: 10px 0 10px 0;
+  display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.parrillada1 img{
+  width: 228px;
+  border-radius: 100px 170px;
+  margin: 10px 0 10px 0;
+  display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.brunch1 img{
+  width: 250px;
+  height: 230px;
+  border-radius: 100px 170px;
+  margin: 10px 0 10px 0;
+  display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.meseros1 img{
+  width: 250px;
+  height: 230px;
+  border-radius: 100px 170px;
+  margin: 10px 0 10px 0;
+  display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.paq h3{
+      font-size: 45px;
+   color: rgba(34, 180, 15, 0.87);
+  font-family: "Poetsen One", sans-serif;
+ 
+}
+.paq1 h3{
+  font-size: 30px;
+color: rgba(5, 105, 5, 0.87);
+font-family: "Poetsen One", sans-serif;
+
+}
+.paq1{
+  border: 3px solid rgba(233, 14, 186, 0.87);
+  border-radius: 20px 50px;
+ 
+}
+.paq1 img{
+  width: 30px;
+}
+.paq1 p{
+  font-size: 20.5px;
+  color: rgba(22, 16, 77, 0.87);
+  font-family: "Edu TAS Beginner", cursive;
+}
+.paq2 h3{
+font-size: 30px;
+color: rgba(5, 105, 5, 0.87);
+font-family: "Poetsen One", sans-serif;
+
+}
+.paq2{
+border: 3px solid rgba(113, 233, 14, 0.87);
+border-radius: 20px 50px;
+}
+.paq2 img{
+width: 30px;
+}
+.paq2 p{
+font-size: 20.5px;
+color: rgba(22, 16, 77, 0.87);
+font-family: "Edu TAS Beginner", cursive;
+}
+.paq3 h3{
+  font-size: 30px;
+  color: rgba(5, 105, 5, 0.87);
+  font-family: "Poetsen One", sans-serif;
+  
+  }
+  .paq3{
+  border: 3px solid rgba(233, 14, 186, 0.87);
+  border-radius: 20px 50px;
+  
+  }
+  .paq3 img{
+  width: 30px;
+  }
+  .paq3 p{
+  font-size: 20.5px;
+  color: rgba(22, 16, 77, 0.87);
+  font-family: "Edu TAS Beginner", cursive;
+  }
+  .paquetet {
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+  }
+  .valores img{
+    width: 150px;
+    border: 3px solid rgba(16, 49, 231, 0.87);
+    border-radius: 20px 50px;
+  }
+  .valores h3{
+    font-size: 30px;
+  color: rgba(34, 180, 15, 0.87);
+  font-family: "Kaushan Script", cursive;
+  }
+button{
+  width: 150px;
+  height: 30px;
+}
+
+
+.boton button {
+  width: 20px;
+  position: fixed; 
+  bottom: 30px;
+  right: 15px; 
+  z-index: 99; 
+  outline: none;    
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 10px;
+  font-size: 18px; 
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+ .boton img{
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+.fotpre img{
+width: 250px; 
+}
+.presentacion{
+  width: 400px;
+  height: 500px;
+        margin: 10px 0 10px 0;
+        background-image:url('./imagenes/fondo\ fiestamorado.jpg');
+        border-radius: 50px 100px;
+}
+.presentacion h3{
+  color: antiquewhite;
+  font-family: "Kaushan Script", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+ }
+ .presentacion p{
+color:  antiquewhite;
+  font-family: "Kaushan Script", cursive;
+  
+ }
+ .presentacion2 img{
+  width: 300px; 
+  }
+  .presentacion2{
+    width: 400px;
+    height: 500px;
+          margin: 10px 0 10px 0;
+          background-image:url('./imagenes/fondo\ fiestamorado.jpg');
+          border-radius: 50px 100px;
+  }
+  .presentacion2 h3{
+    color: antiquewhite;
+    font-family: "Kaushan Script", cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   }
+   .presentacion2 p{
+  color:  antiquewhite;
+    font-family: "Kaushan Script", cursive;
+    
+   }
