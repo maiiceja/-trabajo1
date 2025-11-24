@@ -1,148 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="./estilos.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <title> Fantassia Premium</title>
-    </head> 
-    <body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fantassi Premium | Agencia de Animación</title>
 
-      <div class="conte">
-        <div class="navegador">
-           <img class="logo" src="./imagenes/logo_fpsin fondo.png" alt="logo fp">
-            <ul class="nav">
-              <li class="nav-item">
-                <button type="button" class="btn btn-outline-primary"><a href="./index.html">Home</a></button>   
-              </li>
-             <li class="nav-item">
-               <button type="button" class="btn btn-outline-success"><a href="./comida.html">Comida</a></button>
-             </li>
-             <li class="nav-item">
-               <button type="button" class="btn btn-outline-danger"><a href="./Fiestasinfantiles.html">Fiestas infantiles</a></button>
-             </li>
-             <li class="nav-item">
-              <button type="button" class="btn btn-outline-warning"><a href="./Cumpleaños.html">Cumpleaños</a></button>
-             </li>
-             <li class="nav-item">
-               <button type="button" class="btn btn-outline-primary"><a href="./despedidadesoltera.html">Despedida de Soltera</a></button>
-             </li>
-             <li class="nav-item"> 
-               <button type="button" class="btn btn-outline-light"><a href="#Contáctanos"> Contáctanos</a></button>
-             </li>
-           </ul>
-         </div>
-        </div>
+  <!-- CSS específico para index -->
+  <link rel="stylesheet" href="estilos-index.css" />
 
-        
-  <div class="vfp">
-    <video src="./videos/VID-20220920-WA0000.mp4" class="object-fit-contain" autoplay loop mute controls></video>
-  </div>
-      <div class="contenedor1">
-        <div class="qs">
-                <img  src="./imagenes/nosotros fp.jpg" alt="quienes somos">
-                <p> NOSOTROS <br> <br> Somos una empresa enamorada de los grandes momentos, tenemos mas de 10 años de experiencia, sabemos que crear bonitos recuerdos es importante es por eso desde que nos contactas ponemos toda nuestra dispocion en que tu evento sea el mejor, siempre nos estamos actualizado para brindarte los mejores servicios. </p>
-            </div>
-      </div>   
-      <div class="contenedor2">
-                <div class="qs2"> 
-                <img  src="./imagenes/presentacion de fantassia premium.jpg" alt="presentacion">
-                
-                <p>TE BRINDAMOS<br> <br> Tenemos una amplia variedad de servicios y lo unico que tienes que hacer es mandarnos un mensaje decirnos en que parte sera tu evento y el servicio que necesitas y enseguida te damos seguimiento</p>
-               </div>
-      </div>     
-      <div class="visita">
-        <h2>Visita nuestras redes sociales</h2>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-4 ">
-           <a href="https://www.facebook.com/mairenfanttasia/"><img src="./imagenes/logo sin fondo face.png" alt=""></a>
-          </div>
-          <div class="col-md-4 ">
-           <a href="https://www.tiktok.com/@fanttasia_premium_?lang=es"><img src="./imagenes/colorful_tiktok_logo_on_transparent_background_PNG-removebg-preview (2).png" alt=""></a>
-          </div>
-          <div class="col-md-4 ">
-           <a href="https://wa.link/keloq2"><img src="./imagenes/Logo_WhatsApp___Logos_PNG-removebg-preview.png" alt=""></a>
-          </div>
-        </div>
+  <!-- EmailJS init (mantengo tu clave) -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("myxUKnWsZO_aDEwC2");
+    })();
+  </script>
+</head>
+
+<body class="index">
+  <!-- NAVBAR (estructura requerida: .brand + .nav) -->
+  <header class="navbar">
+    <div class="brand">
+      <div class="logo">
+        <img src="./imagenes/logo_fpsin fondo.png" alt="Logo FP">
       </div>
-      <div id="Contáctanos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>Contáctanos</h3>
-                    <form id="contact_form" action="/contacto" method="post" autocomplete="off" novalidate="novalidate" class="fv-form fv-form-bootstrap"><button type="submit" class="fv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group"><input type="text" id="field_name" name="name" class="form-control" placeholder="Nombre" data-fv-field="name"></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group"><input type="text" id="field_email" name="email" class="form-control" placeholder="Correo electrónico" data-fv-field="email"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group"><input type="text" id="field_phone" name="phone" class="form-control" placeholder="Teléfono" data-fv-field="phone"></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group"><input type="text" id="field_event_date" name="event_date" class="form-control js-event-date" placeholder="Fecha de tu evento" data-fv-field="event_date"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group"><textarea name="message" cols="50" rows="6" class="form-control" placeholder="¿En qué podemos ayudarte?" data-fv-field="message"></textarea></div>
-                                <div class="form-group">
-                                    <div id="messages" class="hide help-block"><small class="help-block" data-fv-validator="notEmpty" data-fv-for="name" data-fv-result="NOT_VALIDATED" style="display: none;">Ingresa tu nombre</small><small class="help-block" data-fv-validator="notEmpty" data-fv-for="phone" data-fv-result="NOT_VALIDATED" style="display: none;">Ingresa un número telefónico</small><small class="help-block" data-fv-validator="notEmpty" data-fv-for="email" data-fv-result="NOT_VALIDATED" style="display: none;">Ingresa tu correo electrónico</small><small class="help-block" data-fv-validator="emailAddress" data-fv-for="email" data-fv-result="NOT_VALIDATED" style="display: none;">Ingresa un correo electrónico válido</small><small class="help-block" data-fv-validator="notEmpty" data-fv-for="event_date" data-fv-result="NOT_VALIDATED" style="display: none;">Ingresa la fecha de tu evento</small><small class="help-block" data-fv-validator="date" data-fv-for="event_date" data-fv-result="NOT_VALIDATED" style="display: none;">Ingresa una fecha válida</small><small class="help-block" data-fv-validator="notEmpty" data-fv-for="message" data-fv-result="NOT_VALIDATED" style="display: none;">Cuéntanos en qué podemos ayudarte</small></div>
-                                </div>
-    
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="g-recaptcha" data-sitekey="6LcpXGgbAAAAAKI3EXlBz5QGZzO4Hjmisf_FFaGY"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-38raj585iwt2" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6LcpXGgbAAAAAKI3EXlBz5QGZzO4Hjmisf_FFaGY&amp;co=aHR0cHM6Ly9hbGFiaW8ubXg6NDQz&amp;hl=es-419&amp;v=joHA60MeME-PNviL59xVH9zs&amp;size=normal&amp;cb=j7afl7rvzxfi"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-                                <br>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mandar</font></font></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cotiza</font></font></h3>
-                         <div class="row">
-                        <div class="col-md-6">
-                          <div class ="iconos">
-                            <ul class="list-unstyled">
-                                <li>Horario de atención: Lunes-Sábado de 10:00am a 6:00pm<br></li>
-                                <li><img src="./imagenes/telefono sin fondo.png"><p>tel 5521411828</p></li>
-                                <li><img src="./imagenes/telefono sin fondo.png"><p>tel 5544604118</p></li>
-                                      <br>
-                                          <br>
-                                       <li class="mt5">Si tardamos en contestar, nuestros asesores están atendiendo a otro cliente, por favor vuelve a intenteralo más tarde.<br><br></li>
-                                       <li>Emergencias de Logística</li>
-                                <li><img src="./imagenes/telefono sin fondo.png"><p>tel 5544604118</p></li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                            <address class="hidden-xs">
-                                <strong>Fantassia Premium</strong><br>
-                                Negrete Poniente 202<br>
-                                Col. Centro<br>
-                                Huamantla Tlaxcala.
-                            </address>
-                            <a href="https://maps.app.goo.gl/81VQGWs3sZJC3A9A7" target="_blank" rel="nofollow" class=" text-center mb5" style="display: block">
-                                                                                        <img src="./imagenes/mapa fp.png" style="max-width: 263px">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>           
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+      <div class="title">Fantassi Premium</div>
+    </div>
 
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html#home">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li><a href="babyshower.html">Baby Shower</a></li>
+        <li><a href="comida.html">Comida</a></li>
+        <li><a href="index.html#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <main>
+    <section id="home" class="hero">
+      <h1>¡Hacemos tu celebración mágica!</h1>
+      <p>Especialistas en eventos de Baby Shower y servicios de comida para toda ocasión.</p>
+      <a href="#contacto" class="btn">Cotiza tu evento</a>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+      <h2>Nuestra Historia</h2>
+      <p>
+        Fantassi Party nació con la idea de crear momentos inolvidables llenos de color, alegría y creatividad.
+        Con sedes en Tlaxcala y Ciudad de México, transformamos tus ideas en experiencias únicas.
+      </p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <h2>Contáctanos</h2>
+      <p>¿Listo para cotizar tu evento o resolver dudas? Envíanos un mensaje.</p>
+
+      <form id="contact-form" class="contacto form-contacto">
+        <input type="text" name="user_name" placeholder="Tu nombre" required />
+        <input type="email" name="user_email" placeholder="Tu correo electrónico" required />
+        <input type="text" name="user_estado" placeholder="¿De qué estado nos contactas?" required />
+        <textarea name="message" placeholder="Escribe tu mensaje o cotización aquí..." required></textarea>
+        <button type="submit" class="btn btn-send">Enviar mensaje</button>
+      </form>
+
+      <div class="sedes">
+        <h3>Nuestras sedes</h3>
+        <p><strong>Tlaxcala:</strong> Negrete Poniente 202, Centro, Huamantla, Tlaxcala</p>
+        <p><strong>Ciudad de México:</strong> CROC 3, El Rosario 2, Tlalnepantla, Estado de México</p>
+      </div>
+
+      <!-- MAPAS -->
+      <div class="mapas">
+        <iframe
+          src="https://www.google.com/maps?q=Negrete%20Poniente%20202%20Huamantla%20Tlaxcala&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <iframe
+          src="https://www.google.com/maps?q=CROC%203%20El%20Rosario%202%20Tlalnepantla&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- REDES FLOTANTES (usa la clase que espera el CSS) -->
+  <div class="redes-flotantes" aria-hidden="false">
+    <a href="https://wa.me/5610733058?text=¡Hola!%20Quiero%20cotizar%20un%20evento%20con%20Fantassi%20Party!" target="_blank" class="whatsapp" aria-label="WhatsApp">💬</a>
+    <a href="https://www.tiktok.com/" target="_blank" class="tiktok" aria-label="TikTok">🎵</a>
+    <a href="https://www.instagram.com/" target="_blank" class="instagram" aria-label="Instagram">📸</a>
+    <a href="https://www.facebook.com/" target="_blank" class="facebook" aria-label="Facebook">📘</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Fantassi Party | Creando momentos mágicos ✨</p>
+  </footer>
+
+  <!-- JS: carrusel y utilidades (asegúrate de tener js/script.js según te pasé) -->
+  <script src="script.js"></script>
+</body>
 </html>

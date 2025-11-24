@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baby Shower | Fantassi Party</title>
+
+  <!-- CSS específico para Baby Shower -->
+  <link rel="stylesheet" href="estilos-babyshower.css" />
+</head>
+<!-- EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("TU_USER_ID_AQUI");
+    })();
+  </script>
+</head>
+
+<body class="babyshower">
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="brand">
+      <div class="logo">
+        <img src="./imagenes/logo_fpsin fondo.png" alt="Logo FP">
+      </div>
+      <div class="title">Fantassi Party</div>
+    </div>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html#home">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li><a href="babyshower.html">Baby Shower</a></li>
+        <li><a href="comida.html">Comida</a></li>
+        <li><a href="index.html#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero baby">
+    <h1>Baby Shower</h1>
+    <p>
+      En <strong>Fantassi Party</strong> hacemos que la llegada de tu bebé sea celebrada con toda la magia,
+      ternura y alegría que este momento merece. Creamos experiencias llenas de color, emoción y diversión
+      para ti y tus seres queridos, cuidando cada detalle para que todo sea inolvidable.
+    </p>
+  </section>
+
+  <!-- NUESTRO TRABAJO -->
+  <section class="trabajo">
+    <h2>Nuestro trabajo</h2>
+    <div class="carrusel">
+      <div class="slides">
+  <img src="./imagenes/baby shower 1.jpeg" alt="Evento 1">
+  <img src="./imagenes/baby shower.jpeg" alt="Evento 2">
+  <img  src="./imagenes/decoracion baby shower.jpeg" alt="Evento 3">
+</div>
+    </div>
+  </section>
+
+  <!-- PAQUETES -->
+  <section class="paquetes">
+    <h2>Paquetes</h2>
+    <div class="paquetes-container">
+      <div class="paquete-card">
+        <h3>Paquete Básico</h3>
+        <ul>
+          <li>Animación</li>
+          <li>Material para concursos</li>
+          <li>Equipo de audio</li>
+          <li>10 regalos</li>
+          <li>1 hora y 30 minutos de servicio</li>
+        </ul>
+        <a href="https://wa.me/5610733058?text=¡Hola!%20Quiero%20cotizar%20el%20paquete%20básico%20de%20Baby%20Shower"
+           target="_blank" class="btn-cotizar">Cotiza</a>
+      </div>
+
+      <div class="paquete-card">
+        <h3>Paquete Premium</h3>
+        <ul>
+          <li>Animación</li>
+          <li>Material para concursos</li>
+          <li>Equipo de audio</li>
+          <li>10 regalos</li>
+          <li>Botarga de cigüeña</li>
+          <li>2 horas de servicio</li>
+        </ul>
+        <a href="https://wa.me/5610733058?text=¡Hola!%20Quiero%20cotizar%20el%20paquete%20premium%20de%20Baby%20Shower"
+           target="_blank" class="btn-cotizar">Cotiza</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMENDACIONES -->
+  <section class="recomendaciones">
+    <h2>Recomendaciones</h2>
+    <p>Escucha lo que dicen nuestros clientes sobre su experiencia con Fantassi Party.</p>
+    <div class="videos">
+      <video controls>
+        <source src="./videos/reseña1.mp4" type="video/mp4">
+      </video>
+      <video controls>
+        <source src="./videos/reseña2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form id="contact-form" class="form-contacto">
+      <input type="text" name="user_name" placeholder="Tu nombre" required />
+      <input type="email" name="user_email" placeholder="Tu correo electrónico" required />
+      <input type="text" name="user_estado" placeholder="¿De qué estado nos contactas?" required />
+      <textarea name="message" placeholder="Escribe tu mensaje o cotización aquí..." required></textarea>
+      <button type="submit" class="btn btn-send">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- REDES FLOTANTES -->
+  <div class="redes-flotantes">
+    <a href="https://wa.me/5610733058?text=¡Hola!%20Quiero%20cotizar%20un%20evento%20con%20Fantassi%20Party!" target="_blank" class="whatsapp">💬</a>
+    <a href="https://www.tiktok.com/" target="_blank" class="tiktok">🎵</a>
+    <a href="https://www.instagram.com/" target="_blank" class="instagram">📸</a>
+    <a href="https://www.facebook.com/" target="_blank" class="facebook">📘</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Fantassi Party | Creando momentos mágicos ✨</p>
+  </footer>
+
+<!-- Scripts al final para que carguen después del HTML -->
+  <script src="script.js"></script>
+</body>
+</html>
